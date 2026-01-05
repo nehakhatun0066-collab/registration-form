@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form-card">
+            <h2>Registration Form</h2>
+
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Name*" required />
+                <input type="email" name="email" placeholder="Email*" required />
+                <input type="tel" name="phone" placeholder="Phone*" required />
+
+                <select name="subject" required>
+                    <option value="" disabled selected>Subject*</option>
+                    <option value="general">Data Structure</option>
+                    <option value="support">C Programming</option>
+                    <option value="feedback">Python</option>
+                    <option value="feedback">Computer System Organisation</option>
+                    <option value="feedback">Algorithm</option>
+                </select>
+
+                <textarea name="message" rows="4" placeholder="Message*"
+                    required>Thanks for registering with us. Check your email for further instructions.</textarea>
+
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
